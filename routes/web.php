@@ -12,7 +12,7 @@ use App\Http\Controllers\Auth\DashboardController;
 // Frontend Routes
 Route::get('/',[HomeController::class, 'index']);
 Route::get('/about',[AboutController::class, 'about'])->name('website.layout');
-Route::get('/contact',[ContcatController::class, 'index']);
+Route::get('/contact',[ContactController::class, 'index']);
 Route::get('/service',[ServicesController::class, 'index']);
 
 
