@@ -1,0 +1,29 @@
+/* Increase width of the dropdown menu */
+.dropdown-menu.mega-menu {
+    width: 800px; /* Adjust this value as needed */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Add some margin to the columns for better spacing */
+.dropdown-menu.mega-menu .column {
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
+/* Ensure the columns display properly in a row */
+.dropdown-menu.mega-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Adjust the column width if necessary */
+.dropdown-menu.mega-menu .column {
+    flex: 1;
+    min-width: 150px; /* Adjust this value as needed */
+}
+
+/* Add a border or background color for better visibility */
+.dropdown-menu.mega-menu {
+    background-color: #fff; /* Change to your desired background color */
+    border: 1px solid #ccc; /* Optional: add a border */
+}

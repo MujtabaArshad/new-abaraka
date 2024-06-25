@@ -51,6 +51,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="header_bottom">
             <div class="container">
                 <div class="col-sm-12">
@@ -66,183 +67,186 @@
                                 </button>
 
                                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                                    <ul class="navbar-nav">
-                                        {{--  <li class="nav-item"><a class="nav-link active"
-                                                href="{{ url('/') }}">Home</a></li>  --}}
-
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                Personal
-                                            </a>
-                                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown1">
-                                                <div class="column">
-                                                    <h6>The Accounts</h6>
-                                                    <a class="dropdown-item" href="view_all_accounts.html">View All
-                                                        Accounts</a>
-                                                    <a class="dropdown-item" href="current_account.html">Current
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="distinguish_account.html">AlBaraka
-                                                        Distinguish Account</a>
-                                                    <a class="dropdown-item" href="saving_account.html">Saving
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="profit_saving_account.html">Saving
-                                                        accounts with profit</a>
+                                    <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                                        <ul class="navbar-nav row">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+                                                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    Personal
+                                                </a>
+                                                <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown1">
+                                                    <div class="row">
+                                                        <div class="column">
+                                                            <h6>The Accounts</h6>
+                                                            <a class="dropdown-item" href="view_all_accounts.html">View All
+                                                                Accounts</a>
+                                                            <a class="dropdown-item" href="current_account.html">Current
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="distinguish_account.html">AlBaraka
+                                                                Distinguish Account</a>
+                                                            <a class="dropdown-item" href="saving_account.html">Saving
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="profit_saving_account.html">Saving
+                                                                accounts with profit</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Financial Products</h6>
+                                                            <a class="dropdown-item" href="view_all_financing.html">View All
+                                                                Financing</a>
+                                                            <a class="dropdown-item" href="education_product.html">Education
+                                                                product</a>
+                                                            <a class="dropdown-item" href="ghiyar_product.html">Ghiyar (spare
+                                                                parts) Product</a>
+                                                            <a class="dropdown-item" href="mihnati_product.html">Mihnati
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagah_product.html">Tagah
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagseet_product.html">Tagseet
+                                                                product</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Electronic Services</h6>
+                                                            <a class="dropdown-item" href="internet_banking.html">Internet
+                                                                Banking</a>
+                                                            <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
+                                                                App</a>
+                                                            <a class="dropdown-item" href="messages.html">AlBaraka
+                                                                Messages</a>
+                                                            <a class="dropdown-item" href="atm_card.html">ATM Card</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Deposits</h6>
+                                                            <a class="dropdown-item" href="golden_deposit.html">Golden
+                                                                Deposit</a>
+                                                            <a class="dropdown-item" href="distinctive_deposit.html">Distinctive
+                                                                Deposit</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Other Helpful Services</h6>
+                                                            <a class="dropdown-item" href="check_statements.html">Check Your
+                                                                AlBaraka Statements</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="column">
-                                                    <h6>Financial Products</h6>
-                                                    <a class="dropdown-item" href="view_all_financing.html">View All
-                                                        Financing</a>
-                                                    <a class="dropdown-item" href="education_product.html">Education
-                                                        product</a>
-                                                    <a class="dropdown-item" href="ghiyar_product.html">Ghiyar (spare
-                                                        parts) Product</a>
-                                                    <a class="dropdown-item" href="mihnati_product.html">Mihnati
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagah_product.html">Tagah
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagseet_product.html">Tagseet
-                                                        product</a>
+                                            </li>
+            
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2"
+                                                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    Corporate
+                                                </a>
+                                                <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown2">
+                                                    <div class="row">
+                                                        <div class="column">
+                                                            <h6>The Accounts</h6>
+                                                            <a class="dropdown-item" href="view_all_accounts.html">View All
+                                                                Accounts</a>
+                                                            <a class="dropdown-item" href="current_account.html">Current
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="distinguish_account.html">AlBaraka
+                                                                Distinguish Account</a>
+                                                            <a class="dropdown-item" href="saving_account.html">Saving
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="profit_saving_account.html">Saving
+                                                                accounts with profit</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Financial Products</h6>
+                                                            <a class="dropdown-item" href="view_all_financing.html">View All
+                                                                Financing</a>
+                                                            <a class="dropdown-item" href="education_product.html">Education
+                                                                product</a>
+                                                            <a class="dropdown-item" href="ghiyar_product.html">Ghiyar (spare
+                                                                parts) Product</a>
+                                                            <a class="dropdown-item" href="mihnati_product.html">Mihnati
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagah_product.html">Tagah
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagseet_product.html">Tagseet
+                                                                product</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Electronic Services</h6>
+                                                            <a class="dropdown-item" href="internet_banking.html">Internet
+                                                                Banking</a>
+                                                            <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
+                                                                App</a>
+                                                            <a class="dropdown-item" href="messages.html">AlBaraka
+                                                                Messages</a>
+                                                            <a class="dropdown-item" href="atm_card.html">ATM Card</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Deposits</h6>
+                                                            <a class="dropdown-item" href="golden_deposit.html">Golden
+                                                                Deposit</a>
+                                                            <a class="dropdown-item" href="distinctive_deposit.html">Distinctive
+                                                                Deposit</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Other Helpful Services</h6>
+                                                            <a class="dropdown-item" href="check_statements.html">Check Your
+                                                                AlBaraka Statements</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="column">
-                                                    <h6>Electronic Services</h6>
-                                                    <a class="dropdown-item" href="internet_banking.html">Internet
-                                                        Banking</a>
-                                                    <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
-                                                        App</a>
-                                                    <a class="dropdown-item" href="messages.html">AlBaraka
-                                                        Messages</a>
-                                                    <a class="dropdown-item" href="atm_card.html">ATM Card</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Deposits</h6>
-                                                    <a class="dropdown-item" href="golden_deposit.html">Golden
-                                                        Deposit</a>
-                                                    <a class="dropdown-item"
-                                                        href="distinctive_deposit.html">Distinctive Deposit</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Other Helpful Services</h6>
-                                                    <a class="dropdown-item" href="check_statements.html">Check Your
-                                                        AlBaraka Statements</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                Corporate
-                                            </a>
-                                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown2">
-                                                <div class="column">
-                                                    <h6>The Accounts</h6>
-                                                    <a class="dropdown-item" href="view_all_accounts.html">View All
-                                                        Accounts</a>
-                                                    <a class="dropdown-item" href="current_account.html">Current
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="distinguish_account.html">AlBaraka
-                                                        Distinguish Account</a>
-                                                    <a class="dropdown-item" href="saving_account.html">Saving
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="profit_saving_account.html">Saving
-                                                        accounts with profit</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Financial Products</h6>
-                                                    <a class="dropdown-item" href="view_all_financing.html">View All
-                                                        Financing</a>
-                                                    <a class="dropdown-item" href="education_product.html">Education
-                                                        product</a>
-                                                    <a class="dropdown-item" href="ghiyar_product.html">Ghiyar (spare
-                                                        parts) Product</a>
-                                                    <a class="dropdown-item" href="mihnati_product.html">Mihnati
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagah_product.html">Tagah
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagseet_product.html">Tagseet
-                                                        product</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Electronic Services</h6>
-                                                    <a class="dropdown-item" href="internet_banking.html">Internet
-                                                        Banking</a>
-                                                    <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
-                                                        App</a>
-                                                    <a class="dropdown-item" href="messages.html">AlBaraka
-                                                        Messages</a>
-                                                    <a class="dropdown-item" href="atm_card.html">ATM Card</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Deposits</h6>
-                                                    <a class="dropdown-item" href="golden_deposit.html">Golden
-                                                        Deposit</a>
-                                                    <a class="dropdown-item"
-                                                        href="distinctive_deposit.html">Distinctive Deposit</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Other Helpful Services</h6>
-                                                    <a class="dropdown-item" href="check_statements.html">Check Your
-                                                        AlBaraka Statements</a>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                About Albaraka
-                                            </a>
-                                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown3">
-                                                <div class="column">
-                                                    <h6>The Accounts</h6>
-                                                    <a class="dropdown-item" href="view_all_accounts.html">View All
-                                                        Accounts</a>
-                                                    <a class="dropdown-item" href="current_account.html">Current
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="distinguish_account.html">AlBaraka
-                                                        Distinguish Account</a>
-                                                    <a class="dropdown-item" href="saving_account.html">Saving
-                                                        Account</a>
-                                                    <a class="dropdown-item" href="profit_saving_account.html">Saving
-                                                        accounts with profit</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Financial Products</h6>
-                                                    <a class="dropdown-item" href="view_all_financing.html">View All
-                                                        Financing</a>
-                                                    <a class="dropdown-item" href="education_product.html">Education
-                                                        product</a>
-                                                    <a class="dropdown-item" href="ghiyar_product.html"> Ghiyar (spare
-                                                        parts) Product</a>
-                                                    <a class="dropdown-item" href="mihnati_product.html">Mihnati
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagah_product.html">Tagah
-                                                        Product</a>
-                                                    <a class="dropdown-item" href="tagseet_product.html">Tagseet
-                                                        product</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Electronic Services</h6>
-                                                    <a class="dropdown-item" href="internet_banking.html">Internet
-                                                        Banking</a>
-                                                    <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
-                                                        App</a>
-                                                    <a class="dropdown-item" href="messages.html">AlBaraka
-                                                        Messages</a>
-                                                    <a class="dropdown-item" href="atm_card.html">ATM Card</a>
-                                                </div>
-                                                <div class="column">
-                                                    <h6>Deposits</h6>
-                                                    <a class="dropdown-item" href="golden_deposit.html">Golden
-                                                        Deposit</a>
-                                                    <a class="dropdown-item"
-                                                        href="distinctive_deposit.html">Distinctive Deposit</a>
-                                                </div>
-                                                <div class="column">
+                                            </li>
+            
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
+                                                    role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    About Albaraka
+                                                </a>
+                                                <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown3">
+                                                    <div class="row">
+                                                        <div class="column">
+                                                            <h6>The Accounts</h6>
+                                                            <a class="dropdown-item" href="view_all_accounts.html">View All
+                                                                Accounts</a>
+                                                            <a class="dropdown-item" href="current_account.html">Current
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="distinguish_account.html">AlBaraka
+                                                                Distinguish Account</a>
+                                                            <a class="dropdown-item" href="saving_account.html">Saving
+                                                                Account</a>
+                                                            <a class="dropdown-item" href="profit_saving_account.html">Saving
+                                                                accounts with profit</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Financial Products</h6>
+                                                            <a class="dropdown-item" href="view_all_financing.html">View All
+                                                                Financing</a>
+                                                            <a class="dropdown-item" href="education_product.html">Education
+                                                                product</a>
+                                                            <a class="dropdown-item" href="ghiyar_product.html"> Ghiyar (spare
+                                                                parts) Product</a>
+                                                            <a class="dropdown-item" href="mihnati_product.html">Mihnati
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagah_product.html">Tagah
+                                                                Product</a>
+                                                            <a class="dropdown-item" href="tagseet_product.html">Tagseet
+                                                                product</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Electronic Services</h6>
+                                                            <a class="dropdown-item" href="internet_banking.html">Internet
+                                                                Banking</a>
+                                                            <a class="dropdown-item" href="mobile_app.html">AlBaraka Mobile
+                                                                App</a>
+                                                            <a class="dropdown-item" href="messages.html">AlBaraka
+                                                                Messages</a>
+                                                            <a class="dropdown-item" href="atm_card.html">ATM Card</a>
+                                                        </div>
+                                                        <div class="column">
+                                                            <h6>Deposits</h6>
+                                                            <a class="dropdown-item" href="golden_deposit.html">Golden
+                                                                Deposit</a>
+                                                            <a class="dropdown-item" href="distinctive_deposit.html">Distinctive
+                                                                Deposit</a>
+                                                        </div>
+                                                            <div class="column">
                                                     <h6>Other Helpful Services</h6>
                                                     <a class="dropdown-item" href="check_statements.html">Check Your
                                                         AlBaraka Statements</a>
@@ -273,13 +277,12 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="full">
-                                <img class="img-responsive" src="assets/website/images/logo_albaraka.png"
-                                    alt="#" />
+                                <img class="img-responsive" src="assets/website/images/logo_albaraka.png" alt="#" />
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="full">
-                                <h3>Quick Links</h3>
+                                <h3 class="orange_text">Quick Links</h3>
                             </div>
                             <div class="full">
                                 <ul class="menu_footer">
@@ -295,13 +298,12 @@
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="full">
                                 <div class="footer_blog full white_fonts">
-                                    <h3>Newsletter</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                                    <h3 class="orange_text">Newsletter</h3>
+                                    <p class="color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                                     <div class="newsletter_form">
                                         <form action="{{ url('/') }}">
-                                            <input type="email" placeholder="Your Email" name="#"
-                                                required="">
-                                            <button>Submit</button>
+                                            <input type="email" placeholder="Your Email" name="#" required="">
+                                            <button class="orange_btn">Submit</button>
                                         </form>
                                     </div>
                                 </div>
@@ -310,7 +312,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="full">
                                 <div class="footer_blog full white_fonts">
-                                    <h3>Contact us</h3>
+                                    <h3 class="orange_text">Contact us</h3>
                                     <ul class="full">
                                         <li><img src="assets/website/images/i5.png"><span>London 145<br>United
                                                 Kingdom</span></li>
@@ -325,7 +327,6 @@
             </div>
         </div>
     </footer>
-
     <div class="footer_bottom">
         <div class="container">
             <div class="row">
